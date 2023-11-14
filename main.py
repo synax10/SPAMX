@@ -26,5 +26,5 @@ if __name__ == "__main__":
         except Exception as e:
             print(e)
 
-    print("💞YOUR PY-ALTRON SPAM USERBOTS DEPLOYED SUCCESSFULLY 💞")
+    print("⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️")
     idle()
