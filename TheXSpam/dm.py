@@ -22,7 +22,7 @@ async def dmraid(xspam: Client, message: Message):
           id = ok.id
 
           if id in THE_ALTS:
-                await message.reply_text(f"`ᴠᴇʀɪғɪᴇᴅ ʙʏ ᴀʟᴛʀᴏɴ x`")
+                await message.reply_text(f"`ᴠᴇʀɪғɪᴇᴅ ʙʏ ⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️`")
           elif id in SUDO_USERS:
                 await message.reply_text(f"`ᴛʜɪs ᴘᴇʀsᴏɴ ɪs ᴍʏ sᴜᴅᴏ ᴜsᴇʀ`")
           else:
@@ -40,7 +40,7 @@ async def dmraid(xspam: Client, message: Message):
           id = ok.id
 
           if id in THE_ALTS:
-                await message.reply_text(f"`ᴠᴇʀɪғɪᴇᴅ ʙʏ ᴀʟᴛʀᴏɴ x`")
+                await message.reply_text(f"`ᴠᴇʀɪғɪᴇᴅ ʙʏ ⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️`")
           elif id in SUDO_USERS:
                 await message.reply_text(f"`ᴛʜɪs ᴘᴇʀsᴏɴ ɪs ᴍʏ sᴜᴅᴏ ᴜsᴇʀ`")
           else:
@@ -63,7 +63,7 @@ async def dmspam(client: Client, message: Message):
     if  len(alt) == 4:
         uid = int(alt[2])
         if uid in THE_ALTS:
-            await message.reply_text(f"`ᴠᴇʀɪғɪᴇᴅ ʙʏ ᴀʟᴛʀᴏɴ x`")
+            await message.reply_text(f"`ᴠᴇʀɪғɪᴇᴅ ʙʏ ⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️`")
         elif uid in SUDO_USERS:
             await message.reply_text(f"`ᴛʜɪs ᴘᴇʀsᴏɴ ɪs ᴍʏ sᴜᴅᴏ ᴜsᴇʀ`")
         else:
@@ -77,7 +77,7 @@ async def dmspam(client: Client, message: Message):
         id = message.reply_to_message.from_user.id
 
         if id in THE_ALTS:
-            await message.reply_text(f"`ᴠᴇʀɪғɪᴇᴅ ʙʏ ᴀʟᴛʀᴏɴ x`")
+            await message.reply_text(f"`ᴠᴇʀɪғɪᴇᴅ ʙʏ ⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️`")
         elif id in SUDO_USERS:
             await message.reply_text(f"`ᴛʜɪs ᴘᴇʀsᴏɴ ɪs ᴍʏ sᴜᴅᴏ ᴜsᴇʀ`")
         else:
@@ -89,4 +89,4 @@ async def dmspam(client: Client, message: Message):
                 await asyncio.sleep(0.3)
 
     else:
-        await message.reply_text("😈 ᴜsᴀɢᴇ:\n .dmspam 13 <ᴜꜱᴇʀ ɪᴅ> Altron\n .dmspam 13 Altron <ʀᴇᴘʟʏ ᴛᴏ ᴜsᴇʀ>")
+        await message.reply_text("😈 ᴜsᴀɢᴇ:\n .dmspam 13 <ᴜꜱᴇʀ ɪᴅ> Altron\n .dmspam 13 ⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️ <ʀᴇᴘʟʏ ᴛᴏ ᴜsᴇʀ>")
