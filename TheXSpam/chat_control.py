@@ -18,9 +18,9 @@ async def join(client: Client, message: Message):
         return await message.reply_text("`Need a chat username or chat-id or invite link to join.`")
     try:
         await client.join_chat(alt[1])
-        await message.reply_text(f"**Joined**")
+        await message.reply_text(f"**⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️ Joined**")
     except Exception as ex:
-        await message.reply_text(f"**ERROR:** \n\n{str(ex)}")
+        await message.reply_text(f"**⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️ ERROR:** \n\n{str(ex)}")
   
          
 # LEAVE COMMAND
@@ -33,9 +33,9 @@ async def leave(xspam: Client, message: Message):
             return
         try:
            await xspam.leave_chat(alt[1])
-           await message.reply_text(f"**Left Successfully ✅**")
+           await message.reply_text(f"**⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️ Left Successfully ✅**")
         except Exception as ex:
-           await message.reply_text(f"**ERROR:** \n\n{str(ex)}")
+           await message.reply_text(f"**⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️ ERROR:** \n\n{str(ex)}")
     else:
         chat = message.chat.id
         ok = message.from_user.id
@@ -45,6 +45,6 @@ async def leave(xspam: Client, message: Message):
               return
         try:
            await xspam.leave_chat(chat)
-           await message.reply_text(f"**Left Successfully ✅ **")
+           await message.reply_text(f"**⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️ Left Successfully ✅ **")
         except Exception as ex:
-           await message.reply_text(f"**ERROR:** \n\n{str(ex)}")
+           await message.reply_text(f"**⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️ ERROR:** \n\n{str(ex)}")
