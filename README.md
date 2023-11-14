@@ -1,4 +1,4 @@
-<p align="center"><a href="https://t.me/TheAltron"><img src="https://telegra.ph/file/a32783a91999e9774054a.jpg"></a></p>
+<p align="center"><a href="https://t.me/synax10"><img src="https://telegra.ph/file/a32783a91999e9774054a.jpg"></a></p>
 
 ━━━━━━━━━━━━━━━━━━━━━━
 
